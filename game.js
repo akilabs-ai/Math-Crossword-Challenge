@@ -1370,7 +1370,7 @@ function drawMiniBoard(x, y) {
 
 function drawHelp() {
   drawBackground();
-  drawButton("closeHelp", 86, 84, 110, 110, "<");
+  drawTopAssetButton("closeHelp", 86, 84, 110, 110, uiAssets.back);
   text("How to Play", W / 2, 145, 62, "#1e73d8");
   drawHelpCard(112, 295, "1", "Pick a number", "Tap a green tile below.");
   drawHelpCard(112, 570, "2", "Fill a blank", "Tap an empty cream box.");
@@ -1383,7 +1383,7 @@ function drawHelp() {
 
 function drawSettings() {
   drawBackground();
-  drawButton("closeSettings", 86, 84, 110, 110, "<");
+  drawTopAssetButton("closeSettings", 86, 84, 110, 110, uiAssets.back);
   text("SETTINGS", W / 2, 145, 62, "#1e73d8");
 
   roundRect(112, 320, 856, 180, 28, "rgba(238, 242, 244, .9)");
