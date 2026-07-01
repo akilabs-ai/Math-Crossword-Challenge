@@ -1231,7 +1231,7 @@ function drawTitle() {
 }
 
 function drawHomeStatsPanel(bob) {
-  const panelX = 86;
+  const panelX = 132;
   const panelY = 368;
   const panelW = 720;
   const panelH = 286;
@@ -1274,8 +1274,8 @@ function drawHomeStatsPanel(bob) {
   }
 
   if (uiAssets.homeMascot.complete) {
-    const mascotSize = 300;
-    drawAsset(uiAssets.homeMascot, 668, panelY - 42 + bob * 0.55, mascotSize, mascotSize);
+    const mascotSize = 270;
+    drawAsset(uiAssets.homeMascot, 730, panelY - 34 + bob * 0.55, mascotSize, mascotSize);
   }
 }
 
